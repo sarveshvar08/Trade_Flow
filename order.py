@@ -9,6 +9,5 @@ class Order:
         self.status = "OPEN"
 
     def __str__(self):
-        return f"{self.order_id} | 
-            {self.symbol} | {self.side} | {self.price} | 
-            {self.remaining_quantity} | {self.status}"
+        return f"{self.order_id} | {self.symbol} | {self.side} | {self.price} | {self.remaining_quantity} | {self.status}"
+
